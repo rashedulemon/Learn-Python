@@ -1,6 +1,9 @@
 # It's a program for calculate exam grade
 point = int(input("Enter your Exam point:"))
-if point >= 80:
+
+if point > 100:
+    print("Wrong Input!!")
+elif point >= 80:
     print("Your grade is A+")
 elif point >= 70:
     print("Your grade is A")
